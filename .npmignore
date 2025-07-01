@@ -1,0 +1,106 @@
+# Source files (only include built dist files)
+src/
+*.ts
+*.tsx
+!*.d.ts
+
+# Build tools and configuration
+rollup.config.js
+rollup.config.ts
+tsconfig.json
+babel.config.js
+.babelrc
+.babelrc.js
+webpack.config.js
+vite.config.js
+
+# Development and testing
+test/
+tests/
+__tests__/
+*.test.js
+*.test.ts
+*.spec.js
+*.spec.ts
+jest.config.js
+vitest.config.js
+.eslintrc*
+.prettierrc*
+.stylelintrc*
+
+# Documentation and examples (optional - remove if you want to include them)
+docs/
+examples/
+demo/
+*.md
+!README.md
+
+# Development dependencies
+node_modules/
+.pnpm-store/
+yarn.lock
+package-lock.json
+pnpm-lock.yaml
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+.directory
+
+# Git
+.git/
+.gitignore
+.gitattributes
+
+# CI/CD
+.github/
+.gitlab-ci.yml
+.travis.yml
+.circleci/
+.jenkins/
+.drone.yml
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Runtime and temporary files
+.tmp/
+.temp/
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage and reports
+coverage/
+.nyc_output/
+.coverage/
+*.lcov
+
+# Environment files
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Storybook
+.storybook/
+storybook-static/
+
+# Miscellaneous
+*.tgz
+.npmrc
+.yarnrc
+.editorconfig
