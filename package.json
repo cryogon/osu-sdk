@@ -1,10 +1,10 @@
 {
-    "name": "osu-api-sdk",
+    "name": "osu-sdk",
     "version": "0.1.0",
     "author": "cryogon",
     "repository": {
         "type": "git",
-        "url": "https://github.com/cryogon/osu-api-sdk.git"
+        "url": "https://github.com/cryogon/osu-sdk.git"
     },
     "main": "dist/main.js",
     "module": "dist/main.esm.js",
