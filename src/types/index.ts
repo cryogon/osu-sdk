@@ -473,12 +473,14 @@ export interface Score {
   max_combo: number;
   perfect: boolean;
   statistics: {
-    count_50?: number;
-    count_100?: number;
-    count_300?: number;
-    count_geki?: number;
-    count_katu?: number;
-    count_miss?: number;
+    ok: number;
+    miss: number;
+    great: number;
+    ignore_hit: number;
+    ignore_miss: number;
+    large_bonus: number;
+    small_bonus: number;
+    slider_tail_hit: number;
   };
   passed: boolean;
   pp?: number;
@@ -497,12 +499,11 @@ export interface Score {
   legacy_score_id?: number;
   legacy_total_score?: number;
   maximum_statistics?: {
-    count_50?: number;
-    count_100?: number;
-    count_300?: number;
-    count_geki?: number;
-    count_katu?: number;
-    count_miss?: number;
+    great: number;
+    ignore_hit: number;
+    large_bonus: number;
+    small_bonus: number;
+    slider_tail_hit: number;
   };
   room_id?: number;
   ruleset_id?: number;
